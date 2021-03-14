@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Mecanica Nissei" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../estilo/css.css">
+    <script src="../scripts/JavaScript.js"></script>
+    <title>Mecanica Nissei</title>
+    
+</head>
+<body>
+    <div id="container-body">
+        <h1 class="texto">Sistema Oficina Nissei</h1>
+    </div> 
+        <div class="container">
+			<form >
+				<fieldset class="border m-4 p-4">
+                    <legend class="w-25">Login</legend>
+                        <div class="form-group row">
+                        <label class="col-2 col-form-label" for="email">Email:</label>
+                        <input id="data-email" class="col-10 form-control" type="text"  name="email" placeholder="Digite seu email aqui..." required/>
+                        </div>
+                        <div class="form-group row">
+                        <label class="col-2 col-form-label" for="senha" type="password">Senha:</label>
+                        <input id="data-senha" class="col-10 form-control" type="password"  name="senha" placeholder="Digite sua senha aqui..." required/>
+                        </div>
+                        <div class="">
+                                <div class="alinha">
+                                    <input type="submit" class="btn btn-outline-primary" value="Entrar" oninput="validarLogin(this)"/>
+                                    <input  type="text" class="btn btn-outline-primary" id="mostrarSenha" value="Mostar Senha" onclick="mostrarSenha()" />
+                                </div>
+                       
+                    </fieldset>
+			</form>	
+        </div>
+   <!-- <div id="opcoes">
+        <button onclick="window.location.href = './buscarClientes.html'">Buscar Clientes</button>
+        <button onclick="window.location.href = './cadastrarCliente.html'">Cadastrar clientes</button>
+        <button onclick="window.location.href = './buscarCarros.html'">Buscar Carros</button>
+        <button onclick="window.location.href = './.html'">Criar Ordem de Serviço</button>
+        <button onclick="window.location.href = './.html'">Fechar Ordem de Serviço</button>
+        <button onclick="window.location.href = './.html'">Cadastrar Carro</button>
+        <button onclick="window.location.href = './.html'">Buscar Serviço</button>
+        <button onclick="window.location.href = './.html'">Emitir Relatorio</button>
+     </div>-->
+    
+</body>
+</html>
