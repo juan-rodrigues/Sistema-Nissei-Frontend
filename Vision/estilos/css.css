@@ -57,10 +57,10 @@ button:hover{
   color: #007bff; 
   border-color: #007bff;
 }
- .form-group {margin-bottom: 1rem}
- .w-25 {width: 25%! Important; font-size: 30px;}
+.form-group {margin-bottom: 1rem}
+.w-25 {width: 25%! Important; font-size: 30px;}
 .container {width: 50%; padding-right: auto; padding-left: auto; margin-right: auto; margin-left: auto; text-align: center; }
 .border {border: 1px solid #dee2e6! important}
 .col-form-label {padding-top: calc (.375rem + 1px); padding-bottom: calc (.375rem + 1px); margin-bottom: 0; font-size: inherit; line-height: 1.5; font-size: 22px;}
-.Col-2 {-ms-flex: 0 0 16,6666667%; flex: 0 0 16,6666667%; larguramáxima: 16,6666667%}
+.Col-2 {-ms-flex: 0 0 16,6666667%; flex: 0 0 16,6666667%; max-width: 16,6666667%}
 .alinha{text-align: center; padding-right : 55px;}
