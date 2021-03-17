@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--
+    Written using the help of bootstrap 4
+    https://github.com/juan-rodrigues
+-->
+<html>
+    <head>
+        <title>Cadastrar Cliente</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="../estilos/cadClientecss.css">
+    </head>
+    <body>
+
+        <header>
+          <!-- Fixed navbar -->
+          <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="home.html">Oficina Nissei</a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- para ser colocado depois, pra juntar todos as paginas
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+            </div>
+            -->
+          </nav>
+        </header>   
+
+        <!-- Begin page content -->
+        <main role="main" class="container">
+          <div class="center-text"><h3>Cadastrar Cliente</h5></div>
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-5">
+                <label for="imputNome">Nome</label>
+                <input type="text" class="form-control" id="inputNome" placeholder="Nome Completo">
+              </div>
+              <div class="form-group col-md">
+                <label for="inputSexo">Sexo</label>
+                <select id="inputSexo" class="form-control">
+                  <option selected>Homem</option>
+                  <option>Mulher</option>
+                </select>
+              </div>
+              <div class="form-group col-md-5">
+                <label for="imputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-2">
+                <label for="imputCep">CEP</label>
+                <input type="text" class="form-control" id="inputCEP" placeholder="CEP">
+              </div>
+              <div class="form-group col">
+                <label for="imputUF">UF</label>
+                <input type="text" class="form-control" id="inputUF" placeholder="UF">
+              </div>
+              <div class="form-group col-md-3">
+                <label for="imputCidade">Bairro</label>
+                <input type="text" class="form-control" id="inputCidade" placeholder="Cidade">
+              </div>
+              <div class="form-group col-md-3">
+                <label for="imputRua">Cidade</label>
+                <input type="text" class="form-control" id="inputRua" placeholder="Rua">
+              </div>
+              <div class="form-group col-md-3">
+                <label for="imputRua">Numero</label>
+                <input type="number" class="form-control" id="inputNumero" placeholder="0000">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+          </form>
+        </main>
+        
+    
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+        <script src="../../assets/js/vendor/popper.min.js"></script>
+        <script src="../../dist/js/bootstrap.min.js"></script>
+      </body>
+</html>
